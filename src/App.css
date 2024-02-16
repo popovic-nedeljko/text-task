@@ -1,0 +1,28 @@
+.App {
+  height: 100dvh;
+  width: 100dvw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #040609;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: fit-content;
+  width: 20ch;
+  max-width: 20ch;
+
+  font-size: 2rem;
+  color: #000;
+  background-color: #e2e2e2;
+  transition: height 0.5s;
+}
+
+p {
+  padding: 2ch;
+  text-align: left;
+}
